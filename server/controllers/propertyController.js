@@ -118,6 +118,7 @@ const createProperty = async (req, res) => {
       totalValue,
       totalTokens,
       tokensAvailable: totalTokens,
+      tokenPrice: totalValue / totalTokens,
       monthlyRent,
       amenities,
       specifications,
